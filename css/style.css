@@ -1,0 +1,94 @@
+body{
+  text-align:center;
+  font-family:Roboto;
+  font-weight:bold;
+  background-color: #e4e4e4;
+
+}
+
+.mdcbg{
+	background-image: url('http://localhost/mdboot/img/asset/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
+	min-height: 300px;
+	margin-bottom: -25px;
+}
+.mt-sm-6{
+	margin-top: 6rem!important;
+}
+
+.nav-link, .navbar {
+    padding-right: 0rem;
+}
+
+.mdlogo{
+	width: 120px;
+    vertical-align: top;
+    margin-top: 70px;	
+}
+
+
+.txt-color-primary{
+	color: #d72034;
+}
+
+.bg-color-primary{
+	background-color: #d72034;
+}
+.card-img-top{
+	width: 40%!important;
+	display: block;
+	margin: auto;
+}
+
+
+.footer-content{
+	height: 16px;
+}
+
+
+
+
+.nav-link{
+	color: black;	
+}
+
+.customcard{
+  background-color: #e4e4e4;
+  padding: 18px;
+}
+
+.nav-item .active{
+	color: black;
+	border-bottom: black 4px solid;
+}
+
+.nav-link-sb:hover{
+	color: black;
+	border-bottom: black 4px solid;
+}
+
+.nav-link-sb{
+	color: #d72034;
+}
+
+
+.form-inline input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 80%;
+}
+.form-inline input::-moz-placeholder { /* Firefox 19+ */
+  font-size: 80%;
+}
+.form-inline input:-ms-input-placeholder { /* IE 10+ */
+  font-size: 80%;
+}
+.form-inline input:-moz-placeholder { /* Firefox 18- */
+  font-size: 80%;
+}
+
+.form-inline {
+    border-left: #e4e4e4 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: #e4e4e4 2px solid;	
+}
+.md-form input{border-bottom:0px solid #000!important;}
+
