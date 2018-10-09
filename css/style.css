@@ -22,9 +22,10 @@ body{
 .mdlogo{
 	width: 120px;
     vertical-align: top;
-    margin-top: 70px;	
 }
-
+.mr-logo{
+	margin-right: 120px;
+}
 
 .txt-color-primary{
 	color: #d72034;
@@ -49,6 +50,7 @@ body{
 
 .nav-link{
 	color: black;	
+	text-align: left;
 }
 
 .customcard{
@@ -92,3 +94,7 @@ body{
 }
 .md-form input{border-bottom:0px solid #000!important;}
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+    cursor: pointer;
+}
