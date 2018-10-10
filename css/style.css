@@ -6,30 +6,60 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+	font-family: "Roboto", sans-serif;
+	margin: 0!important;
+}
+
+h1 {
+  color: #212121!important;
+  font-weight: 100!important;
+  font-size: 42px!important;
 }
 
 h2 {
-  color: #000;
-  font-weight: 600;
+  color: #212121!important;
+  font-weight: 400!important;
+  font-size: 30px!important;
+}
+
+h3 {
+  color: #212121!important;
+  font-weight: 400!important;
+  font-size: 26px!important;
 }
 
 h4 {
-  color: #000;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  line-height: 2;
+  color: #212121!important;
+  font-weight: 400!important;
+  font-size: 21px!important;
 }
 
 h5 {
-  color: #626262;
-  font-size: 14px;
-  font-weight: 500;
+  color: #212121!important;
+  font-weight: 700!important;
+  font-size: 16px!important;
+}
+
+.dlt-head {
+	font-family: "Roboto", sans-serif;
+  color: #757575!important;
+  font-weight: 400!important;
+  font-size: 14px!important;
+}
+
+.dlt-head-txt {
+	font-family: "Roboto", sans-serif;
+  color: #212121!important;
+  font-weight: 400!important;
+  font-size: 16px!important;
 }
 
 
+p{
+  color: #212121;
+  font-weight: 400;
+  font-size: 16px!important;
+}
 
 
 .mdcbg{
@@ -37,9 +67,19 @@ h5 {
 	min-height: 300px;
 	margin-bottom: -25px;
 }
+.mdcbg-1{
+	background-image: url('http://localhost/mdboot/img/asset/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
+	min-height: 400px;
+	margin-bottom: -35px;
+}
+
 .mt-sm-6{
 	margin-top: 6rem!important;
 }
+.mt-sm-12{
+	margin-top: 12rem!important;
+}
+
 
 .nav-link, .navbar {
     padding-right: 0rem;
@@ -60,6 +100,10 @@ h5 {
 .bg-color-primary{
 	background-color: #d72034;
 }
+.btn-primary{
+	background-color: #d72034!important;
+}
+
 .card-img-top{
 	width: 40%!important;
 	display: block;
@@ -123,4 +167,66 @@ h5 {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
     cursor: pointer;
+}
+
+th, td {
+	text-align: left;
+}
+
+.dataTables_info{
+	text-align: left;
+	font-size: 11px;
+}
+
+.pagination .active a{
+	background-color: #d72034!important;
+	font-size: 11px;
+}
+
+.page-item  a{
+	font-size: 11px!important;
+}
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	color:#d72034;
+	background:white;
+padding: 6px 10px 6px 10px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+	border-radius: 50%;
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:24px;
+	margin-top:0px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
 }
