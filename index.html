@@ -2,173 +2,453 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+    rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
 
 
-    <!--Double navigation-->
-    <header>
+  <!--Double navigation-->
+  <header>
 
-        <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
-            <!-- SideNav slide-out button -->
-            <div class="float-left">
-                <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="fa fa-bars"></i></a>
-            </div>
-            <!-- Breadcrumb-->
-            <div class="breadcrumb-dn mr-auto">
-                <p>Material Design for Bootstrap</p>
-            </div>
-            <ul class="nav navbar-nav nav-flex-icons ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Support</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
+    <!-- Full Page Intro -->
+    <div class="mdcbg">
+      <div class="float-right view"><img class="mdlogo" src="./img/asset/logo.png" /></div>
+
+      <nav class="navbar navbar-expand-xl bg-white small py-0">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06"
+          aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample06">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <form class="form-inline">
+                <div class="md-form my-0">
+                  <i class="fa fa-search"></i>
+                  <input class="form-control " type="text" placeholder="Dokument suchen" aria-label="Dokument suchen">
+                </div>
+              </form>
+            </li>
+
+            <li class="nav-item dropdown">
+              <!--          <li class="nav-item dropdown show">-->
+              <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Investment Profile</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown06">
+                <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+
+          </ul>
+
+          <div class="float-right">
+
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link mr-logo" href="#"><i class="fa fa-user txt-color-primary"></i> Superuser77</a>
+              </li>
             </ul>
+          </div>
 
 
 
+        </div>
+      </nav>
 
-
-
-        </nav>
-        <!-- /.Navbar -->
-    </header>
-    <!--/.Double navigation-->
-
-
-
-
-    <!--Footer-->
-    <footer class="page-footer text-center text-md-left pt-4">
-
-        <!--Footer Links-->
-        <div class="container-fluid">
+      <!-- Mask & flexbox options-->
+      <div class="container p-0">
+        <div class="rgba-gradient d-flex justify-content-center align-items-center">
+          <!-- Content -->
+          <div class="container">
+            <!--Grid row-->
             <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <h1 class="h1-responsive font-weight-bold mt-sm-6">Sales Documents Portal</h1>
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <!--<div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                    <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+                  </div>-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Content -->
+        </div>
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
 
-                <!--First column-->
-                <div class="col-md-3">
-                    <h5 class="text-uppercase font-weight-bold mb-4">Footer Content</h5>
-                    <p>Here you can use rows and columns here to organize your footer content.</p>
-                </div>
-                <!--/.First column-->
 
-                <hr class="w-100 clearfix d-md-none">
 
-                <!--Second column-->
-                <div class="col-md-2 mx-auto">
-                    <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#!">Link 1</a></li>
-                        <li><a href="#!">Link 2</a></li>
-                        <li><a href="#!">Link 3</a></li>
-                        <li><a href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-                <!--/.Second column-->
+    <!-- /.Navbar -->
+  </header>
+  <!--/.Double navigation-->
+  <div class="container p-0">
+    <ul class="nav md-pills nav-justified pills-secondary bg-white">
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb active" data-toggle="tab" href="#panel4" role="tab">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb" data-toggle="tab" href="#panel11" role="tab">Story Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb" data-toggle="tab" href="#panel12" role="tab">Slide Library</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb" data-toggle="tab" href="#panel13" role="tab">Fund Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb" data-toggle="tab" href="#panel13" role="tab">Capability Guide</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb" data-toggle="tab" href="#panel13" role="tab">Product Flyer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb" data-toggle="tab" href="#panel13" role="tab">Performance Analyse</a>
+      </li>
+      <li class="nav-item dropdown">
+        <!--          <li class="nav-item dropdown show">-->
+        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown06">
+          <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+          <a class="dropdown-item nav-link-sb" href="#">Action</a>
+          <a class="dropdown-item nav-link-sb" href="#">Another action</a>
+          <a class="dropdown-item nav-link-sb" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
 
-                <hr class="w-100 clearfix d-md-none">
 
-                <!--Third column-->
-                <div class="col-md-2 mx-auto">
-                    <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#!">Link 1</a></li>
-                        <li><a href="#!">Link 2</a></li>
-                        <li><a href="#!">Link 3</a></li>
-                        <li><a href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-                <!--/.Third column-->
 
-                <hr class="w-100 clearfix d-md-none">
 
-                <!--Fourth column-->
-                <div class="col-md-2 mx-auto">
-                    <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#!">Link 1</a></li>
-                        <li><a href="#!">Link 2</a></li>
-                        <li><a href="#!">Link 3</a></li>
-                        <li><a href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-                <!--/.Fourth column-->
+
+  <main class="mt-3">
+    <!--Main container-->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="row bg-white p-3">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-4">
+          <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <strong>Equity</strong>
+          </h4>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
 
             </div>
-        </div>
-        <!--/.Footer Links-->
+            <div class="col-lg-4 col-md-6">
 
-        <hr>
-
-        <!--Call to action-->
-        <div class="call-to-action text-center my-4">
-            <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                    <h5>Register for free</h5>
-                </li>
-                <li class="list-inline-item"><a href="" class="btn btn-primary">Sign up!</a></li>
-            </ul>
-        </div>
-        <!--/.Call to action-->
-
-        <hr>
-
-        <!--Social buttons-->
-        <div class="social-section text-center">
-            <ul class="list-unstyled list-inline">
-                <li class="list-inline-item"><a class="btn-floating btn-fb"><i class="fa fa-facebook"> </i></a></li>
-                <li class="list-inline-item"><a class="btn-floating btn-tw"><i class="fa fa-twitter"> </i></a></li>
-                <li class="list-inline-item"><a class="btn-floating btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
-                <li class="list-inline-item"><a class="btn-floating btn-li"><i class="fa fa-linkedin"> </i></a></li>
-                <li class="list-inline-item"><a class="btn-floating btn-git"><i class="fa fa-github"> </i></a></li>
-            </ul>
-        </div>
-        <!--/.Social buttons-->
-
-        <!--Copyright-->
-        <div class="footer-copyright py-3 text-center">
-            <div class="container-fluid">
-                © 2018 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/corporate-bonds.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
 
             </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+
+            </div>
+          </div>
         </div>
-        <!--/.Copyright-->
-
-    </footer>
-    <!--/.Footer-->
 
 
 
+      </div>
+
+      <div class="row bg-white p-3 mt-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-4">
+          <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <strong>Fixed Income</strong>
+          </h4>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/icon-benchmark.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/icon-high-yield.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="col-lg-4 col-md-6">
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+      </div>
+
+      <div class="row bg-white p-3 mt-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-4">
+          <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <strong>Infra</strong>
+          </h4>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/value.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="row bg-white p-3 mt-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-4">
+          <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <strong>MultiAsset</strong>
+          </h4>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="row bg-white p-3 mt-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-4">
+          <h4 class="mb-3 font-weight-bold dark-grey-text">
+            <strong>Real Estate</strong>
+          </h4>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/corporate-bonds.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+              <!--Card image-->
+              <div class="view overlay customcard">
+                <img src="./img/svg/residential.svg" class="card-img-top" alt="">
+                <a href="#">
+                  <div class="black-text">Strategien mit aktiver
+                    systematischer Titelselektion</div>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+    <!--Main container-->
+  </main>
 
 
 
@@ -177,18 +457,41 @@
 
 
 
+  <footer>
+    <!--Copyright-->
+    <div class="footer-copyright py-4 bg-color-primary mt-4">
+      <div class="container-fluid footer-content text-left">
+        <div class="float-left text-white small">Nutzungsbedingungen</div>
+        <div class="float-right text-white small">© Copyright 2017 - Swiss Life - Alle Rechte vorbehalten.</div>
+      </div>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+  <script>
+
+    // SideNav Initialization
+    $(".button-collapse").sideNav();
+    new WOW().init();
+  </script>
 
 
 
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
 </body>
 
 </html>

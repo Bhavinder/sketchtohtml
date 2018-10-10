@@ -1,10 +1,36 @@
 body{
   text-align:center;
-  font-family:Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight:bold;
   background-color: #e4e4e4;
-
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2 {
+  color: #000;
+  font-weight: 600;
+}
+
+h4 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+h5 {
+  color: #626262;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+
 
 .mdcbg{
 	background-image: url('http://localhost/mdboot/img/asset/sm-image.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center top;
