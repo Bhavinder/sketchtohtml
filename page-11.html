@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sales Documents Portal</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+    rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+  <!--Double navigation-->
+  <header>
+
+    <!-- Full Page Intro -->
+    <div class="mdcbg">
+      <div class="float-right view"><img class="mdlogo" src="./img/asset/logo.png" /></div>
+
+      <nav class="navbar navbar-expand-xl bg-white small py-0">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06"
+          aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample06">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <form class="form-inline">
+                <div class="md-form my-0">
+                  <i class="fa fa-search"></i>
+                  <input class="form-control " type="text" placeholder="Dokument suchen" aria-label="Dokument suchen">
+                </div>
+              </form>
+            </li>
+
+            <li class="nav-item dropdown">
+              <!--          <li class="nav-item dropdown show">-->
+              <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Investment Profile</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown06">
+                <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+
+          </ul>
+
+          <div class="float-right">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <!--          <li class="nav-item dropdown show">-->
+                <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false"><i class="fa fa-user txt-color-primary"></i> Superuser77</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown06">
+                  <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+                  <a class="dropdown-item" href="#"><i class="fa fa-user txt-color-grey-light"></i> Mein Proﬁl</a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-file txt-color-grey-light"></i> Meine Dokumente</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-bookmark txt-color-grey-light"></i> Meine
+                    Favoriten</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-lock txt-color-grey-light"></i> Abmelden</a>
+                  <hr />
+                  <a class="dropdown-item" href="#"><i class="fas fa-globe txt-color-grey-light"></i> Schweiz</a>
+                  <div class="dropdown-item-country"><span><a href="#" class="txt-color-primary">DE</a></span> <span><a
+                        href="#">EN</a></span> <span><a href="#">FR</a></span></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </nav>
+
+      <!-- Mask & flexbox options-->
+      <div class="container p-0">
+        <div class="rgba-gradient d-flex justify-content-center align-items-center">
+          <!-- Content -->
+          <div class="container">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6 text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+                <h1 class="h1-responsive font-weight-bold mt-sm-6 white-text">Sales Documents Portal</h1>
+              </div>
+              <!--Grid column-->
+              <!--Grid column-->
+              <!--<div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+                    <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+                  </div>-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Content -->
+        </div>
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
+
+
+
+    <!-- /.Navbar -->
+  </header>
+  <!--/.Double navigation-->
+  <div class="container p-0">
+    <ul class="nav md-pills nav-justified pills-secondary bg-white">
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center active" data-toggle="tab" href="#panel4" role="tab">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="#panel11" role="tab">Story Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="#panel12" role="tab">Slide Library</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="#panel13" role="tab">Fund Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="#panel13" role="tab">Capability Guide</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="#panel13" role="tab">Product Flyer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-sb text-center" data-toggle="tab" href="#panel13" role="tab">Performance Analyse</a>
+      </li>
+      <li class="nav-item dropdown">
+        <!--          <li class="nav-item dropdown show">-->
+        <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown06">
+          <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+          <a class="dropdown-item nav-link-sb" href="#">Action</a>
+          <a class="dropdown-item nav-link-sb" href="#">Another action</a>
+          <a class="dropdown-item nav-link-sb" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <main class="mt-3">
+    <!--Main container-->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="row bg-white p-3">
+
+        <div class="col-lg-12 col-md-12">
+
+          <form class="text-left">
+            <div class="row">
+              <div class="col-md-3">
+                <label>Anlageklasse</label>
+                <select name="IdPresentacion" class="mdb-select colorful-select form-control dropdown-primary"
+                  searchable="Buscar" required>
+                  <option value="" disabled selected>Alle</option>
+                  <option value="" disabled selected>Alle</option>
+                </select>
+              </div>
+
+              <div class="col-md-4">
+                <label>Strategietyp</label>
+                <select name="IdPresentacion" class="mdb-select colorful-select form-control dropdown-primary"
+                  searchable="Buscar" required>
+                  <option value="" disabled selected>Alle</option>
+                  <option value="" disabled selected>Alle</option>
+                </select>
+              </div>
+
+              <div class="col-md-2">
+                <label>Währung</label>
+                <select name="IdPresentacion" class="mdb-select colorful-select form-control dropdown-primary"
+                  searchable="Buscar" required>
+                  <option value="" disabled selected>Alle</option>
+                  <option value="" disabled selected>Alle</option>
+                </select>
+              </div>
+
+              <div class="col-md-2">
+                <label>Sprache</label>
+                <select name="IdPresentacion" class="mdb-select colorful-select form-control dropdown-primary"
+                  searchable="Buscar" required>
+                  <option value="" disabled selected>Alle</option>
+                  <option value="" disabled selected>Alle</option>
+                </select>
+              </div>
+
+              <div class="col-md-1"><label>&nbsp;</label><br />
+                <div class="form-control text-center grey lighten-2"><i class="far fa-bookmark"></i></div>
+              </div>
+
+
+            </div>
+
+          </form>
+        </div>
+
+
+
+
+
+        <div class="col-lg-12 col-md-12 container-fluid">
+          <table id="dtBasicExample" class="table" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th scope="col" colspan="7">GEFUNDENE DOKUMENTE <span class="small mr-2 float-right txt-color-primary">TYPE</span>
+                  <span class="small mr-2 float-right">NAME</span> <span class="small mr-2 float-right txt-color-grey-light">Sort
+                    by</span></th>
+              </tr>
+              <tr>
+                <th scope="col">Name <i class="fa fa-sort txt-color-primary" aria-hidden="true"></i></th>
+                <th scope="col">ISIN <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">NAV <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">YTD <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">Letzte Änderung <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+
+              <tr class="">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+
+              <tr class="">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+
+              <tr class="">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+
+              <tr class="">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+
+              <tr class="">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+              <tr class="grey lighten-4">
+                <td scope="row">Swiss Life Funds (F) Equity Euro Zone Minimum Volaility I</td>
+                <td>LU1341173117</td>
+                <td>10709.05 EUR</td>
+                <td>5.38</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><i class="far fa-2x fa-bookmark"></i></td>
+              </tr>
+              <tr class="grey lighten-4">
+                <td colspan="7">
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Story Book</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Fund Overview</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Capability Guide</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Product Flyer</span>
+                  <span class="small mr-2"><i class="fas fa-file txt-color-primary"></i> Performance Analyse</span>
+                  <span class="small mr-2 float-right"><i class="fas fa-download txt-color-primary"></i> Alle
+                    herunterladen</span>
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!--Main container-->
+  </main>
+
+
+
+
+
+
+
+
+  <footer>
+
+    <div class='scrolltop'>
+      <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+    </div>
+    <!--Copyright-->
+    <div class="footer-copyright py-4 bg-color-primary mt-4">
+      <div class="container-fluid footer-content text-left">
+        <div class="float-left text-white small">Nutzungsbedingungen</div>
+        <div class="float-right text-white small">© Copyright 2017 - Swiss Life - Alle Rechte vorbehalten.</div>
+      </div>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- MDB Datatables JavaScript -->
+  <script type="text/javascript" src="js/addons/datatables.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -94,11 +94,17 @@ p{
 }
 
 .txt-color-primary{
-	color: #d72034;
+	color: #d72034!important;
+}
+.txt-color-grey-light{
+	color: #e4e4e4!important;
 }
 
 .bg-color-primary{
 	background-color: #d72034;
+}
+.bg-color{
+  background-color: #e4e4e4;
 }
 .btn-primary{
 	background-color: #d72034!important;
@@ -137,6 +143,17 @@ p{
 	color: black;
 	border-bottom: black 4px solid;
 }
+
+.subnav .nav-item .active{
+	color: black;
+	border-bottom: #d72034 4px solid;
+}
+
+.subnav .nav-link, .navbar {
+    padding: 1rem;
+}
+
+
 
 .nav-link-sb{
 	color: #d72034;
@@ -229,4 +246,76 @@ padding: 6px 10px 6px 10px;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s; 	
+}
+
+.carousel-inner p{font-size:0.7em; color:#212121; margin-top:10px; text-align:left;margin-bottom: 0px;}
+.carousel-inner span{color:#bcbcbd;}
+.carousel-inner  .carousel-title{text-align:left;}
+.carousel-info {text-align:left; font-size:0.7em;}
+
+.carousel p{font-size:0.7em; color:#212121; margin-top:10px; text-align:left;margin-bottom: 0px;}
+.carousel span{color:#bcbcbd;}
+.carousel  .carousel-title{text-align:left;}
+.carousel  .carousel-control-next-icon {
+	padding: 15px;
+    background-color: #e0e0e0;
+	color: black!important;
+}
+.carousel .sr-only{
+	color: black;
+}
+.carousel  .carousel-control-next{width: 30px;}
+.carousel  .carousel-control-prev{width: 30px;}
+.carousel  .carousel-control-prev-icon {
+	padding: 15px;
+    background-color: #e0e0e0;
+	color: black!important;
+}
+.modal .nav-link, .modal .navbar {
+    padding: 0rem 0rem;
+}
+
+.dropdown-item i{margin-right: 10px;}
+.dropdown-item-country {margin-left: 30px;}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0rem 0rem;
+    margin-bottom: 1rem;
+	background-color: #e4e4e4;
+}
+.breadcrumb-item a{
+	font-size: 14px;
+	color: gray;
+	text-align: left;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">"; 
+}
+
+.navbar .center .navbar-inner {
+    text-align: center;
+}
+.navbar-inner .nav-item {
+    float: none;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.sub-footer-links span{
+	margin-right: 18px;
+	color: #9f9f9f!important;
+}
+
+.overlay-inner p{
+	font-size: 80%!important;
+	margin-top: 10px;
+}
+
+.txt-info{
+	font-size: 80%!important;
+	margin-left: 30px;
 }

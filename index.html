@@ -7,7 +7,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Sales Documents Portal</title>
   <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -71,10 +72,23 @@
           </ul>
 
           <div class="float-right">
-
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-user txt-color-primary"></i> Superuser77</a>
+              <li class="nav-item dropdown">
+                <!--          <li class="nav-item dropdown show">-->
+                <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false"><i class="fa fa-user txt-color-primary"></i> Superuser77</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown06">
+                  <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+                  <a class="dropdown-item" href="#"><i class="fa fa-user txt-color-grey-light"></i> Mein Proﬁl</a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-file txt-color-grey-light"></i> Meine Dokumente</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-bookmark txt-color-grey-light"></i> Meine
+                    Favoriten</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-lock txt-color-grey-light"></i> Abmelden</a>
+                  <hr />
+                  <a class="dropdown-item" href="#"><i class="fas fa-globe txt-color-grey-light"></i> Schweiz</a>
+                  <div class="dropdown-item-country"><span><a href="#" class="txt-color-primary">DE</a></span> <span><a
+                        href="#">EN</a></span> <span><a href="#">FR</a></span></div>
+                </div>
               </li>
             </ul>
           </div>
@@ -458,10 +472,10 @@
 
 
   <footer>
-  
-<div class='scrolltop'>
-    <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
-</div>  
+
+    <div class='scrolltop'>
+      <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+    </div>
     <!--Copyright-->
     <div class="footer-copyright py-4 bg-color-primary mt-4">
       <div class="container-fluid footer-content text-left">

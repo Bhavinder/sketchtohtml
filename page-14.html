@@ -7,7 +7,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Sales Documents Portal</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -71,10 +72,23 @@
           </ul>
 
           <div class="float-right">
-
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-user txt-color-primary"></i> Superuser77</a>
+              <li class="nav-item dropdown">
+                <!--          <li class="nav-item dropdown show">-->
+                <a class="nav-link dropdown-toggle" id="dropdown06" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false"><i class="fa fa-user txt-color-primary"></i> Superuser77</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown06">
+                  <!--            <div class="dropdown-menu show" aria-labelledby="dropdown06">-->
+                  <a class="dropdown-item" href="#"><i class="fa fa-user txt-color-grey-light"></i> Mein Proﬁl</a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-file txt-color-grey-light"></i> Meine Dokumente</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-bookmark txt-color-grey-light"></i> Meine
+                    Favoriten</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-lock txt-color-grey-light"></i> Abmelden</a>
+                  <hr />
+                  <a class="dropdown-item" href="#"><i class="fas fa-globe txt-color-grey-light"></i> Schweiz</a>
+                  <div class="dropdown-item-country"><span><a href="#" class="txt-color-primary">DE</a></span> <span><a
+                        href="#">EN</a></span> <span><a href="#">FR</a></span></div>
+                </div>
               </li>
             </ul>
           </div>
@@ -150,7 +164,7 @@
     </ul>
   </div>
 
-  
+
   <main class="mt-3">
     <!--Main container-->
     <div class="container">
@@ -165,102 +179,102 @@
           <h3 class="mb-3 text-left">
             <strong>ANLAGEPROFILE</strong>
           </h3>
-		  <hr/>
+          <hr />
         </div>
 
 
-            <div class="col-lg-3 col-md-4">
-			  <div class="dlt-head mb-3 text-left">EQUITY</div>
+        <div class="col-lg-3 col-md-4">
+          <div class="dlt-head mb-3 text-left">EQUITY</div>
 
-			<!--Card image-->
-              <div class="view overlay customcard">
-                <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
-                <a href="#">
-                  <div class="black-text dlt-head-txt">Minimum Volatilität Strategien</div>
-                </a>
-              </div>
+          <!--Card image-->
+          <div class="view overlay customcard">
+            <img src="./img/svg/art-001.svg" class="card-img-top" alt="">
+            <a href="#">
+              <div class="black-text dlt-head-txt">Minimum Volatilität Strategien</div>
+            </a>
+          </div>
 
 
-            </div>
-            <div class="col-lg-3 col-md-4">
-			  <div class="dlt-head mb-3 text-left">FIXED INCOME</div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div class="dlt-head mb-3 text-left">FIXED INCOME</div>
 
-              <!--Card image-->
-              <div class="view overlay customcard">
-                <img src="./img/svg/corporate-bonds.svg" class="card-img-top" alt="">
-                <a href="#">
-                  <div class="black-text dlt-head-txt">Emerging Markets <br/><br/></div>
-                </a>
-              </div>
+          <!--Card image-->
+          <div class="view overlay customcard">
+            <img src="./img/svg/corporate-bonds.svg" class="card-img-top" alt="">
+            <a href="#">
+              <div class="black-text dlt-head-txt">Emerging Markets <br /><br /></div>
+            </a>
+          </div>
 
-            </div>
-            <div class="col-lg-3 col-md-4"></div>
-            <div class="col-lg-3 col-md-4"></div>
+        </div>
+        <div class="col-lg-3 col-md-4"></div>
+        <div class="col-lg-3 col-md-4"></div>
 
 
         <div class="col-lg-12 col-md-12 mt-4">
           <h3 class="mb-3 text-left">
             <strong>FUNDS</strong>
           </h3>
-		  <hr/>
+          <hr />
         </div>
-			
-<div class="col-lg-12 col-md-12 container-fluid">
-<table id="dtBasicExample" class="table table-striped" cellspacing="0" width="100%">
-  <thead>
-    <tr>
-      <th scope="col">Name <i class="fa fa-sort txt-color-primary" aria-hidden="true"></i></th>
-      <th scope="col">Wahrung <i class="fa fa-sort" aria-hidden="true"></i></th>
-      <th scope="col">Sprache <i class="fa fa-sort" aria-hidden="true"></i></th>
-      <th scope="col">Letzte Anderung <i class="fa fa-sort" aria-hidden="true"></i></th>
-      <th scope="col"></th>
-      <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row">Swiss Life Funds (CH) Equity Global Protect Enhanced (CHF)</td>
-      <td>CHF</td>
-      <td>Deutsch</td>
-      <td>17.11.2017</td>
-      <td><img src="img/asset/file.png"></td>
-      <td><img src="img/asset/ribban.png"></td>
-    </tr>
-    
-    <tr>
-      <td scope="row">Swiss Life Funds (LUX) Equity Global Minimum Vola</td>
-      <td>EUR</td>
-      <td>Deutsch</td>
-      <td>17.11.2017</td>
-      <td><img src="img/asset/file.png"></td>
-      <td><img src="img/asset/ribban.png"></td>
-    </tr>
-    
-    <tr>
-      <td scope="row">Swiss Life Funds (LUX) Equity Global High Dividend</td>
-      <td>CHF</td>
-      <td>Deutsch</td>
-      <td>17.11.2017</td>
-      <td><img src="img/asset/file.png"></td>
-      <td><img src="img/asset/ribban.png"></td>
-    </tr>
-    
-    <tr>
-      <td scope="row">Swiss Life Funds (LUX) Equity Global High Dividend </td>
-      <td>CHF</td>
-      <td>Deutsch</td>
-      <td>17.11.2017</td>
-      <td><img src="img/asset/file.png"></td>
-      <td><img src="img/asset/ribban.png"></td>
-    </tr>
-  </tbody>
-  
-</table>
-</div>
 
-		
-		
-</div>
+        <div class="col-lg-12 col-md-12 container-fluid">
+          <table id="dtBasicExample" class="table table-striped" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                <th scope="col">Name <i class="fa fa-sort txt-color-primary" aria-hidden="true"></i></th>
+                <th scope="col">Wahrung <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">Sprache <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col">Letzte Anderung <i class="fa fa-sort" aria-hidden="true"></i></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Swiss Life Funds (CH) Equity Global Protect Enhanced (CHF)</td>
+                <td>CHF</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+
+              <tr>
+                <td scope="row">Swiss Life Funds (LUX) Equity Global Minimum Vola</td>
+                <td>EUR</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+
+              <tr>
+                <td scope="row">Swiss Life Funds (LUX) Equity Global High Dividend</td>
+                <td>CHF</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+
+              <tr>
+                <td scope="row">Swiss Life Funds (LUX) Equity Global High Dividend </td>
+                <td>CHF</td>
+                <td>Deutsch</td>
+                <td>17.11.2017</td>
+                <td><img src="img/asset/file.png"></td>
+                <td><img src="img/asset/ribban.png"></td>
+              </tr>
+            </tbody>
+
+          </table>
+        </div>
+
+
+
+      </div>
 
 
 
@@ -292,10 +306,10 @@
 
 
   <footer>
-  
-<div class='scrolltop'>
-    <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
-</div>  
+
+    <div class='scrolltop'>
+      <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+    </div>
     <!--Copyright-->
     <div class="footer-copyright py-4 bg-color-primary mt-4">
       <div class="container-fluid footer-content text-left">
